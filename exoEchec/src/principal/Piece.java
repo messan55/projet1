@@ -6,6 +6,13 @@ public abstract class Piece {
 	private int positionX;
 	private int positionY;
 	
+	public Piece(boolean couleur, int positionX, int positionY) {
+		// TODO Auto-generated constructor stub
+		this.couleur = couleur;
+		this.positionX = positionX;
+		this.positionY = positionY;
+	}
+
 	public boolean isCouleur() {
 		return couleur;
 	}
@@ -30,6 +37,6 @@ public abstract class Piece {
 		this.positionY = positionY;
 	}
 	
-	public abstract String getMouvement(int positionX, int positionY);
+	public abstract String getMouvement();
 	
 }
