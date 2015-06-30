@@ -7,8 +7,13 @@ public class Tour extends Piece{
 		// TODO Auto-generated constructor stub
 	}
 
-	@Override
 	public String getMouvement(int positionX, int positionY) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getMouvement() {
 		// TODO Auto-generated method stub
 		return null;
 	}
